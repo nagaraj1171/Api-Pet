@@ -32,7 +32,7 @@ def hello():
     """
     This is Hi
     """
-    return 'Hello'
+    return 'Hello There!!!'
 
 @APP.route('/tasks', methods=['GET'])
 def get_tasks():
