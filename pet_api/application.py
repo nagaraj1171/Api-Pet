@@ -25,7 +25,7 @@ def hello_world():
     """
     This is Hi
     """
-    return 'Hello World!!! '
+    return 'Hello sweet World!!! '
 
 @APP.route('/hi')
 def hello():
