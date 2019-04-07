@@ -4,7 +4,6 @@ This is testing the flask123 by adding space
 """
 
 from flask import Flask, jsonify, request 
-
 APP = Flask(__name__)
 TASKS = [
     {
@@ -24,10 +23,16 @@ TASKS = [
 
 @APP.route('/')
 def hello_world():
+    """ 
+    This is Hi
+    """
     return 'Hello World!!! '
 
 @APP.route('/hi')
-def hello_world():
+def hello():
+    """ 
+    This is Hi
+    """
     return 'Hello'
 
 @APP.route('/tasks', methods=['GET'])
